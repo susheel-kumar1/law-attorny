@@ -1,0 +1,281 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #00bcd4;
+    
+ a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+font-family: fantasy;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .icon {
+    display: none;
+  }
+  
+}
+#lagecy {
+    margin: 0 0 0 128px;
+    display: block;
+    height: 60px;
+    background: #fff;
+    text-align: -webkit-center;
+    width: 300px !important;
+    color: #000;
+    float: left;
+    transform: skew(-50deg);
+    
+    
+    .fa-balance-scale {
+        font-size: 38px;
+
+        transform: skew(
+            49deg
+            , 
+            -1deg
+            );   
+        }
+    p {
+        transform: skew(
+    49deg
+    , 
+    -1deg
+    );
+        font-family: fantasy;
+    }
+}
+.banner-content {
+    position: relative;
+    height: 200px;
+    width: 420px;
+    right: -73px;
+    top: -345px;
+display: none;
+     p {
+        font-size: 16px;
+        color: #fff;
+        text-align: justify;
+        font-family: serif;
+    }
+
+    h4 {
+        font-size: 18px;
+        color: orange;
+        font-family: fantasy;
+        text-align: justify;
+    }
+    button{
+        outline: none;
+        border: none;
+        background-color: orange;
+        color: #fff;
+    }
+}
+  
+.about-us {
+  padding: 20px 0 0 0 ;
+  p{
+    
+  font-size: 18px;
+    color: #000;
+    text-align: justify;
+    font-family: serif;
+  }
+
+h4{
+  font-size: 25px;
+  color: #000;
+  font-family: fantasy;
+text-decoration: underline;
+}
+ 
+
+h3{
+  
+  color: #000;
+  font-size: 23px;
+  font-family: fantasy;
+}
+ 
+
+}
+
+.lawyer-profile{
+  background-color:#00bcd4;
+padding: 20px 0 25px 0 ;
+border-bottom-left-radius: 40px;
+border-top-right-radius: 40px;
+img{
+  display: block;
+  margin: auto;
+}
+
+.badge {
+  padding: 5px 5px 5px 5px;
+  background-color: #fff;
+  margin: -11px 280px;
+  border-radius: 15px;
+}
+}
+.service{
+
+
+  span {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0 0 0;
+    color:#00bcd4;
+    background: antiquewhite;
+}
+
+}
+
+.service-card{
+justify-content: center;
+padding: 20px 0 0 0;
+  display: flex;
+
+  .card{
+    margin: 20px 0 0 0 ;
+    height: 232px;
+    width: 350px;
+    
+   padding: 0 5px 0  5px;
+
+   .law{
+     
+    margin: -10px 0 0 0;
+    border-radius: 30px;
+    background-color: #00bcd4;
+     p {
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      font-family: serif;
+  }
+
+  h3{
+    text-align: center;
+  }
+  
+  }
+
+  }
+
+}
+
+.testimonial{
+  p {
+    font-size: 20px;
+    color: #00bcd4;
+    text-align: center;
+    font-family: serif;
+}
+#testi {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0 0 0;
+    color:#00bcd4;
+    margin: 220px 0 0 0 ;
+    background: antiquewhite;
+}
+
+}
+
+.test-profile{
+  height: 85px;
+  width: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 4px solid #00bcd4;
+}
+
+.testi-content{
+ 
+  p {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    font-family: serifs;
+}
+
+
+}
+#talkbubble {
+  width: 200px;
+  height: 80px;
+  background-color: #00bcd4;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px 0 5px 0 ;
+  margin: 10px auto;
+
+  p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: serifs;
+}
+
+
+h4{
+  text-align: center;
+  color: #fff;
+  font-size: 23px;
+  font-family: fantasy;
+}
+ 
+}
+#talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #00bcd4;
+  border-bottom: 13px solid transparent;
+}
+
+.side{
+  background-color: #00bcd4;
+  font-size: 20px;
+  color: #fff;
+
+a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 0 10px 0 ;
+}
+
+span a{
+  display: inline;
+  padding: 0 25px 0 0 ;
+}
+
+}
+
+.box{
+  padding: 15px 0 0 0 ;
+}
+
+.service {
+  margin: 20px 0 0 0;
+}
+
+@import "media";
